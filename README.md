@@ -68,7 +68,7 @@ extra levels of security are required to, for example,
 verify the identity of a doctor.  
 
 Another example is the idea of a 'smart' car which is bought on credit which will not start if repayments are not kept up.  We can imagine other oppressive mechanisms being put in place as more control of different aspects of our lives are computerised. 
-![robocop](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![robocop](images/robocop-1987.png)
 robocop image here
 Sounds like being policed by robots. 
 
