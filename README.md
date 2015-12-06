@@ -14,44 +14,56 @@ things as well as currency.
 
 Put simply it is a method of
 authenticating an individual entity over an untrusted
-network.  
+network.  This is done by keeping a universal public ledger, stored on many computers and continously accessible to all, and, in the case of bitcoin, timestamped by a verifiable 'proof of work' system.  'Proof of work' refers to being able to demonstrate that an amount of computational work has been carried out, requiring time and computer resources.  Each block is a function of the previous block in the chain, so in order to change something one would have to re-compute all previous blocks.  If there are differing blockchains available, meaning that one of them could have been maliciously changed, the longest blockchain is assumed to be the correct one.  What this means is that the system assumes that the majority of the system is good, and the only way to undermine it would be to have more computer resources than the cooperating majority.  Rather than trusting the bank, you trust the majority of the network.  
 
-It is undoubtably an important technological breakthrough, and has potentially very
-many applications.  Bitcoin is the original cryptocurrency using this technology, and at the time
-of writing the most widely used by far, although many others now exist which use modified
-versions of the bitcoin software, and it is quite possible that another will in the future prove to be more popular.  Because of this when I talk about Bitcoin I am talking about Bitcoin and Bitcoin-like cryptocurrencies, it is the idea I want to talk about, not the technical details or particular groups involved.  
+However, remember that the majority means the majority of computer resources, not majority of people.  Of course it would be much better is it was the majority of humans.  This means there is the possibility that the US government or other superpower might secretly have the computing resources to break the blockchain.  Or if they dont already they might think about getting such a computer.  But a long as there is a financial insentive for mining and a growing number of users, we have a good chance in this strange battle. 
 
-There are several good texts and books about cryptocurrencies and the story of bitcoin, which place it in the context of the history of monetary systems.  Putting it into this context makes it not seem like such a wacky idea, or rather its not so wacky compared to the financial system we currently use. Fiat currency can be limitlessly created by governments, devaluing the money we have, meaning that when we having our savings in fiat currency we put our trust in the government.  Bitcoin however has a fixed, finite supply.  
+The blockchain, as an authentication technique combining a distributed ledger with a proof of work verification system, solves a longstanding problem in computer science, thought by many to be unsolvable.  explain byzantine generals problem. 
 
+The blockchain is undoubtably an important technological breakthrough, and has potentially very
+many applications.  Bitcoin is the original project using this technology, a distributed cryptocurrency.  At the time
+of writing the bitcoin blockchain is the most widely used by far, although others now exist with various modifications, and it is quite possible that another will in the future prove to be more popular.  The most notable emerging blockchain project is Ethereum, which is designed to be a distributed development platform, sometimes called the universal computer.  Ethereum extends the application of the blockchain to authenticate not only transactions of currency, but to programmable contracts of unlimited complexity.  Although the bitcoin currency has the potential to make a dramatic social impact, Ethereum takes things a big step further, and is thought by many to be a technology which will disrupt all areas of society.  
 
-The blockchain, as an authentication technique, solves a
-longstanding problem in computer science, thought by many to
-be unsolvable.  
+There are several good texts and books about cryptocurrencies and the story of bitcoin and its psudoanonymous creator, which place it in the context of the history of monetary systems.  Putting it into this context makes it not seem like such a wacky idea, or rather its not so wacky compared to the financial system we currently use. Fiat currency can be limitlessly created by governments, devaluing the money we have, meaning that when we having our savings in fiat currency we put our trust in the government.  Bitcoin however has a fixed, finite supply.  
 
-Because of the initial media hype around Bitcoin, it was difficult to know whether to take the project seriously..
+Because of the initial media hype around Bitcoin, it can be difficult to know whether to take the project seriously..
 It is not until one gets an understanding of how genuinely
-decentralised they could be, to have a secure method of
+decentralised such a system could be, to have a secure method of
 authenticating payments between psudoanonymous individuals
 on an insecure network with no trusted third party, that it becomes clear that there is really something innovative here.  Not
 just a new media buzzword but a tool that we now have which was
 previously unavailble.  Just as the popularisation of
-encryption software such as PGP/GPG openend a new
+encryption software such as PGP/GPG opened a new
 possibility for people far away from each other to
 communicate in secret, the blockchain lets us do things we
-couldnt do before.
+couldn't do before.
 
-Dominic Frisby uses the Rai stone currency used on the island of Yap as a way to explain the idea of bitcoin.  On the island, beautiful Rai stones are exchanged for things.  Some of them however, are too big to be moved, and stand at various places around the village.  These big stones are not exchanged very often, but when they are everybody knows who the stone now belongs to even though it has not moved.  This could be compared to the public ledger of that is the bitcoin blockchain.  Who-owns-what is stored on many different computers and is continously viewable, making the system very difficult to undermine.  
+Dominic Frisby uses the Rai stone currency used on the island of Yap as a way to explain the idea of bitcoin.  On the island, beautiful Rai stones are exchanged for things.  Some of them however, are too big to be moved, and stand at various places around the village.  These big stones are not exchanged very often, but when they are, it is the talk of the town, and  everybody knows who the stone now belongs to even though it has not moved.  This could be compared to the public ledger of that is the bitcoin blockchain.  Who-owns-what is stored on many different computers and is continously viewable, making the system very difficult to undermine.  
 
-Using the Bitcoin blockchain to authenticate things other than currency transactions, is often known as bitcoin 2.0, and can be used for registering the ownership of other assets suchs as land, property, cars, intellectual property, or more complex applications such as automatically enforced 'smart contracts', for example renting or borrowing , a work contract, marriage, etc. 
-
-In principle, these blockchain applications such as smart contracts can be used to cut the 'middle man' out of internet-based interactions, changing the topology from a client-server model to direct interactions between peers.  
-
-Ben Schreckinger claims there is a blockchain-based equity market emerging which will pull the rug from under the feet of stock exchanges and various other financial institutions, and that this will be considerably more significant and disruptive than the adoption of bitcoin as a currency.  It seems that many financial, governmental and other kinds of institutes stand to loose their power and significance because of blockchain applications, and Schreckinger thinks regulating authorities may be cautious to intervene for fear of being less 'progressive' than other governments.  
-
-An alternative blockchain system called Ethereum, which is intendend for use by the 'Internet of Things', machine-to-machine interactions, as well as other applications. 
-
+### Environmental concerns
 
 Environmentalists have raised concerns about bitcoin mining.  The financial incentive means that many people run powerful computers solely for the perpose of bitcoin mining.  Electricity wasted.  computer heater?
+
+### Advantages of micropayments
+
+One of the major advantages of bitcoin over traditional payment systems is the possibility to transact tiny amounts which are only significant cumulatively.  Transaction fees associated with credit cards make small payments not worthwile.
+
+
+## Ethereum 
+
+The blockchain can be used to authenticate the ownership of assets suchs as land, property, cars, intellectual property, as well as more complex applications such as automatically enforced 'smart contracts', for example renting or borrowing , a work contract, marriage, etc.  It would also have applications for machine-to-machine interactions, often called the 'Internet of Things'.  For example, one driverless car could compensate another for allowing it to overtake or take a less direct route.
+
+In principle, these blockchain applications such as smart contracts can be used to cut the 'middle man' out of internet-based interactions, changing their topology from a client-server style model to direct interactions between peers.  
+
+Some imagine this to mean that we could effectively work for computer programs instead of having a human as our boss.  A robot boss who always follows the rules exactly and who does not need to be paid.  This sounds both utopian and extremely dangerous at the same time.  
+
+Many aspects of today's 'work' rely on paying someone just to be accountable, trustworthy and secure.  This can now be automated, perhaps in a cooperative way, where corruption is visible to all.  Thus pulling the rug from under the feet of office workers.  
+
+Ben Schreckinger claims there is a blockchain-based equity market emerging which will pull the rug from under the feet of stock exchanges and various other financial institutions.  He says that this will be considerably more significant and socially disruptive than the adoption of bitcoin as a currency.  It seems that many financial, governmental and other kinds of institutes stand to loose their power and significance because of blockchain applications, and Schreckinger thinks regulating authorities are cautious to intervene for fear of being less 'progressive' than governments in other countries, and thereby loosing the edge internationally.  
+
+- smart propertiy also as collateral for trustless lending
+- one-use qr code to open hotel room or rental car
+
 
 It could be that 'smart contracts' while very secure
 from a technical point of view, could be exploited by
@@ -59,25 +71,19 @@ loop-holes in their design.  Melanie Swan uses the example
 of a grandparent using a smart contract to give an
 inheritance gift to a grandchild either on the 18th birtday
 of the child or on the day of the death of the grandparent.
-the death could be varified by checking some kind of
+The death could be varified by checking some kind of
 reputable online
 newspaper orbituary or a registry of death, which perhaps
-only doctors are able to modify.  it is easy to see how one
+only doctors are able to modify.  It is easy to see how one
 might try to think of ways of tricking the system, and so
 extra levels of security are required to, for example,
 verify the identity of a doctor.  
 
 Another example is the idea of a 'smart' car which is bought on credit which will not start if repayments are not kept up.  We can imagine other oppressive mechanisms being put in place as more control of different aspects of our lives are computerised. 
-![robocop](images/robocop-1987.jpg)
-robocop image here
-Sounds like being policed by robots. 
+![robocop](images/robocop.png)
 
 More automation and more security culture does not seem to be a step in the
 direction of a more free and autonomous society.  
-
-### Advantages of micropayments
-
-One of the major advantages of bitcoin over traditional payment systems is the possibility to transact tiny amounts which are only significant cumulatively.  Transaction fees associated with credit cards make small payments not worthwile.  This has many applications with the 'internet of things' machine to machine transactions, such as a car which is in a hurry automatically compensating other cars to take less direct routes. 
 
 
 
@@ -148,30 +154,33 @@ you are using.  How this works depend on the kind of open-source lisence the sof
 a change would effect a lot of people there would likely be some kind of regulation system.
 Although it is genuinely decentralised, this seems slowly less anarchic that our original idea.   
 
-open source software - guaranteed to be good for its users.  Don't like it?  Fork it.  What about
+### Housing cooperatives - Collectively buying property
+
+### Swarm 
+
+Swarm is a crowdfunding platform which uses blockchain technology to sell equity to individuals wanting to help a project.  Co-founder and CEO Joel Dietz speaks in an interview about wanting to disrupt the financial system and to empower people.  He has also appeared on an anarchist webcast program 'anarchast' and said that his influences come from studying early chinese philosophy.  The crowdfunding model differs from other projects like kickstarter, such as kickstarter, in that investors have a financial incentive, like shareholders.  Selling these equity 'tokens' seems to be a legal grey area.  Swarm promotes an alternative model for business which is calls 'Distributed Collabourative Organisations' (DCOs).  Amoung the projects using the model is an e-health platform, 'Pointnurse' where patients can pay to contact a nurse over the internet.  
+
+
+## open source software as a democratic process
+
+- guaranteed to be good for its users.  Don't like it?  Fork it.  What about
 software which favours individual users to the detriment of others?  In many torrent clients it
 is possible to change a setting to become greedy, downloading from others but not allowing
 uploads.  If everyone did this the system simply would not work.  But of course somehow it does
 work. 
 
-Swarm - crowdfunding
-DCOs - Distributed Collabourative Organisations
+## if i dont know you i dont trust you
 
-Housing cooperatives - Collectively buying property
+Do such 'trustless' systems represent a loss of genuine trust between humans which was once the very basis of our communities?  Trust is usually built on social activity, spending time together, communicating, building emotional attachments that mean we care about each other. 
 
-===if i dont know you i dont trust you===
+Is it the case that we need this because our 'communities' have got too big for trust or 'community spirit' to be possible?  is there a critical mass by which a society become to big for trust to come naturally?  
 
-does not being able to trust people you have never met represent a loss of genuine trust between humans which was once the very basis of our communities?  trust is usually built on social activity, spending time together, communicating, building emotional attachments that mean we care about each other. 
-
-is it the case that we need this because our 'communities' have got too big for trust or 'community spirit' to be possible?  Is there not something beautiful about trusting random people?
+Is there not something beautiful about genuinely trusting random people?
 
 'trustless' example
 trust?  I don't trust anyone but the computer
---wake up, go to work
---can i borrow a cup of sugar?
-
-
-
+* wake up, go to work
+* can i borrow a cup of sugar?
 
 Compared to a moneyless utopia built on genuine community,
 the blockchain does not seem so great, and maybe if you have
@@ -199,37 +208,24 @@ such trust.  money would not sit in storage but dynamically
 and effortlessly 
 flow around to where it is currently needed.  
 
-----
 but would this actually abstract the whole perpose of money?
 an abstraction of the same sort which gave rise to the financial
-crisis - imaginary money being pushed around?  bitcoin was
-developed as a response to this ridiculous situation.  
----
+crisis - imaginary money being pushed around?  bitcoin was developed as a response to this ridiculous situation.  
+
 however bitcoin, it seems to me, is something 
 inherently more solid than fiat currency, where banks can limitlessly create more money,
 thereby devaluing our existing money.  
 
-i would like to think that this abstraction of money brought
+it would be nice to think that this abstraction of money brought
 about by such a wide scale collabouration between
 individuals, would form part of a path towards removing the
 significance and importance of money in the minds of its
 users.  which could be the key to transforming this
 competitive and individualist society.  
 
-but how could the problems of food distribution, access to
-land, etc. be solved?
---
-many aspects of today's 'work' rely on paying someone just to be
-accountable, and secure.  this could be automated in a
-cooperative way, where corruption is visible to all.  thus
-pulling the rug from under the feet of office workers.  
+but how could the problems of food distribution, access to land, etc. be solved?
 
-smart propertiy also as collateral for trustless lending
-one-use qr code to open hotel room or rental car
 
-swarm is a crowdfunding platform which uses blockchain technology to sell equity, to individuals wanting to help a project.  Co-founder and CEO Joel Dietz speaks in an interview about wanting to disrupt the financial system and to empower people.  He has also appeared on an anarchist webcast program 'anarchast' and said that his influences come from studying early chinese philosophy.  The crowdfunding model differs from other projects like kickstarter, such as kickstarter, in that investors have a financial incentive, like shareholders.  Selling these equity 'tokens' seems to be a legal grey area.  Swarm promotes an alternative model for business 'distributed collabourative organisations', and amoung the projects using the model is an e-health platform, pointnurse where patients can pay to contact a nurse over the internet.  
-
---possibility that the US or other superpower might secretly have the computing resources to break the blockchain.  or if they dont already they might think about getting such a computer.
 
 # References
  - Nakamoto, Satoshi, 2008. “Bitcoin: A Peer-to-Peer Electronic Cash System.” http://Bitcoin.org/Bitcoin.pdf
