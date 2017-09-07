@@ -1,0 +1,2 @@
+
+map <F3> :silent !./makezine.sh<CR>:redraw!<CR>
